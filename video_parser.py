@@ -37,8 +37,5 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     path = str(args.input)
-    if (path == 'None'):
-        print("[Error] Please set data path by -i or --input.")
-        sys.exit(1)
     print("Data path is: " + path)
     parse(path)
