@@ -35,8 +35,6 @@ def parse(path):
                 i += 1            
             video.release()
             cv2.destroyAllWindows()
-        else:
-            continue
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
